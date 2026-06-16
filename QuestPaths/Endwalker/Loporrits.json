@@ -1,0 +1,114 @@
+{
+  "TribeKey": "Loporrits",
+  "DisplayName": "Loporrits",
+  "Expansion": "Endwalker",
+  "StartAetheryteId": 166,
+  "HubTerritoryId": 956,
+  "DailyQuests": [
+    {
+      "QuestId": 3919,
+      "Name": "Daily Quest 1 – Loporrits",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 166,
+          "TerritoryId": 956,
+          "Comment": "Teleport to Mare Lamentorum (Bestways Burrow)"
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1043915,
+          "Position": { "X": -84.3, "Y": -6.5, "Z": 298.5 },
+          "TerritoryId": 956,
+          "Comment": "Accept daily from Loporrit quest giver"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -70.0, "Y": -6.0, "Z": 310.0 },
+          "TerritoryId": 956,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1043916,
+          "Position": { "X": -70.0, "Y": -6.0, "Z": 310.0 },
+          "TerritoryId": 956,
+          "Comment": "Interact with NPC / deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1043915,
+          "Position": { "X": -84.3, "Y": -6.5, "Z": 298.5 },
+          "TerritoryId": 956,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 3920,
+      "Name": "Daily Quest 2 – Loporrits",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1043915,
+          "Position": { "X": -84.3, "Y": -6.5, "Z": 298.5 },
+          "TerritoryId": 956,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -100.0, "Y": -7.0, "Z": 280.0 },
+          "TerritoryId": 956,
+          "Comment": "Move to delivery NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1043917,
+          "Position": { "X": -100.0, "Y": -7.0, "Z": 280.0 },
+          "TerritoryId": 956,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1043915,
+          "Position": { "X": -84.3, "Y": -6.5, "Z": 298.5 },
+          "TerritoryId": 956,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 3921,
+      "Name": "Daily Quest 3 – Loporrits",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1043915,
+          "Position": { "X": -84.3, "Y": -6.5, "Z": 298.5 },
+          "TerritoryId": 956,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -65.0, "Y": -6.5, "Z": 285.0 },
+          "TerritoryId": 956,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1043918,
+          "Position": { "X": -65.0, "Y": -6.5, "Z": 285.0 },
+          "TerritoryId": 956,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1043915,
+          "Position": { "X": -84.3, "Y": -6.5, "Z": 298.5 },
+          "TerritoryId": 956,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

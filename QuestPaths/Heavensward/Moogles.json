@@ -1,0 +1,114 @@
+{
+  "TribeKey": "Moogles",
+  "DisplayName": "Moogles",
+  "Expansion": "Heavensward",
+  "StartAetheryteId": 76,
+  "HubTerritoryId": 400,
+  "DailyQuests": [
+    {
+      "QuestId": 1740,
+      "Name": "Daily Quest 1 – Moogles",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 76,
+          "TerritoryId": 400,
+          "Comment": "Teleport to Churning Mists (Zenith)"
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1008011,
+          "Position": { "X": 149.8, "Y": 53.0, "Z": -17.5 },
+          "TerritoryId": 400,
+          "Comment": "Accept daily from Mogmul Mogbelly"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 140.0, "Y": 54.0, "Z": -10.0 },
+          "TerritoryId": 400,
+          "Comment": "Navigate to delivery objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1008012,
+          "Position": { "X": 140.0, "Y": 54.0, "Z": -10.0 },
+          "TerritoryId": 400,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1008011,
+          "Position": { "X": 149.8, "Y": 53.0, "Z": -17.5 },
+          "TerritoryId": 400,
+          "Comment": "Turn in to Mogmul Mogbelly"
+        }
+      ]
+    },
+    {
+      "QuestId": 1741,
+      "Name": "Daily Quest 2 – Moogles",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1008011,
+          "Position": { "X": 149.8, "Y": 53.0, "Z": -17.5 },
+          "TerritoryId": 400,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 160.0, "Y": 54.0, "Z": -25.0 },
+          "TerritoryId": 400,
+          "Comment": "Move to NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1008013,
+          "Position": { "X": 160.0, "Y": 54.0, "Z": -25.0 },
+          "TerritoryId": 400,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1008011,
+          "Position": { "X": 149.8, "Y": 53.0, "Z": -17.5 },
+          "TerritoryId": 400,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 1742,
+      "Name": "Daily Quest 3 – Moogles",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1008011,
+          "Position": { "X": 149.8, "Y": 53.0, "Z": -17.5 },
+          "TerritoryId": 400,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 135.0, "Y": 53.0, "Z": -22.0 },
+          "TerritoryId": 400,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1008014,
+          "Position": { "X": 135.0, "Y": 53.0, "Z": -22.0 },
+          "TerritoryId": 400,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1008011,
+          "Position": { "X": 149.8, "Y": 53.0, "Z": -17.5 },
+          "TerritoryId": 400,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "TribeKey": "Qitari",
+  "DisplayName": "Qitari",
+  "Expansion": "Shadowbringers",
+  "StartAetheryteId": 136,
+  "HubTerritoryId": 817,
+  "DailyQuests": [
+    {
+      "QuestId": 3540,
+      "Name": "Daily Quest 1 – Qitari",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 136,
+          "TerritoryId": 817,
+          "Comment": "Teleport to Rak'tika Greatwood (Slitherbough)"
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1036290,
+          "Position": { "X": 115.0, "Y": 2.0, "Z": 425.0 },
+          "TerritoryId": 817,
+          "Comment": "Accept daily from Quinfort"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 98.0, "Y": 2.5, "Z": 440.0 },
+          "TerritoryId": 817,
+          "Comment": "Move to delivery objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1036291,
+          "Position": { "X": 98.0, "Y": 2.5, "Z": 440.0 },
+          "TerritoryId": 817,
+          "Comment": "Deliver / interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1036290,
+          "Position": { "X": 115.0, "Y": 2.0, "Z": 425.0 },
+          "TerritoryId": 817,
+          "Comment": "Turn in to Quinfort"
+        }
+      ]
+    },
+    {
+      "QuestId": 3541,
+      "Name": "Daily Quest 2 – Qitari",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1036290,
+          "Position": { "X": 115.0, "Y": 2.0, "Z": 425.0 },
+          "TerritoryId": 817,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 130.0, "Y": 2.0, "Z": 410.0 },
+          "TerritoryId": 817,
+          "Comment": "Move to NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1036292,
+          "Position": { "X": 130.0, "Y": 2.0, "Z": 410.0 },
+          "TerritoryId": 817,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1036290,
+          "Position": { "X": 115.0, "Y": 2.0, "Z": 425.0 },
+          "TerritoryId": 817,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 3542,
+      "Name": "Daily Quest 3 – Qitari",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1036290,
+          "Position": { "X": 115.0, "Y": 2.0, "Z": 425.0 },
+          "TerritoryId": 817,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 105.0, "Y": 1.5, "Z": 450.0 },
+          "TerritoryId": 817,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1036293,
+          "Position": { "X": 105.0, "Y": 1.5, "Z": 450.0 },
+          "TerritoryId": 817,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1036290,
+          "Position": { "X": 115.0, "Y": 2.0, "Z": 425.0 },
+          "TerritoryId": 817,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "TribeKey": "Omicron",
+  "DisplayName": "Omicron",
+  "Expansion": "Endwalker",
+  "StartAetheryteId": 172,
+  "HubTerritoryId": 960,
+  "DailyQuests": [
+    {
+      "QuestId": 3946,
+      "Name": "Daily Quest 1 – Omicron",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 172,
+          "TerritoryId": 960,
+          "Comment": "Teleport to Ultima Thule (Base Omicron)"
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1044804,
+          "Position": { "X": -569.9, "Y": -15.0, "Z": 799.0 },
+          "TerritoryId": 960,
+          "Comment": "Accept daily from Beta quest giver"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -548.0, "Y": -15.0, "Z": 784.0 },
+          "TerritoryId": 960,
+          "Comment": "Move to objective NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1044805,
+          "Position": { "X": -548.0, "Y": -15.0, "Z": 784.0 },
+          "TerritoryId": 960,
+          "Comment": "Interact with objective"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1044804,
+          "Position": { "X": -569.9, "Y": -15.0, "Z": 799.0 },
+          "TerritoryId": 960,
+          "Comment": "Turn in to Beta"
+        }
+      ]
+    },
+    {
+      "QuestId": 3947,
+      "Name": "Daily Quest 2 – Omicron",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1044804,
+          "Position": { "X": -569.9, "Y": -15.0, "Z": 799.0 },
+          "TerritoryId": 960,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -600.0, "Y": -14.5, "Z": 820.0 },
+          "TerritoryId": 960,
+          "Comment": "Move to delivery point"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1044806,
+          "Position": { "X": -600.0, "Y": -14.5, "Z": 820.0 },
+          "TerritoryId": 960,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1044804,
+          "Position": { "X": -569.9, "Y": -15.0, "Z": 799.0 },
+          "TerritoryId": 960,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 3948,
+      "Name": "Daily Quest 3 – Omicron",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1044804,
+          "Position": { "X": -569.9, "Y": -15.0, "Z": 799.0 },
+          "TerritoryId": 960,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -555.0, "Y": -15.0, "Z": 760.0 },
+          "TerritoryId": 960,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1044807,
+          "Position": { "X": -555.0, "Y": -15.0, "Z": 760.0 },
+          "TerritoryId": 960,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1044804,
+          "Position": { "X": -569.9, "Y": -15.0, "Z": 799.0 },
+          "TerritoryId": 960,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

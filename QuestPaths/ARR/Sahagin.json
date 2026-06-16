@@ -1,0 +1,121 @@
+{
+  "TribeKey": "Sahagin",
+  "DisplayName": "Sahagin",
+  "Expansion": "ARR",
+  "StartAetheryteId": 14,
+  "HubTerritoryId": 138,
+  "DailyQuests": [
+    {
+      "QuestId": 583,
+      "Name": "Daily Quest 1 – Sahagin",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 14,
+          "TerritoryId": 138,
+          "Comment": "Teleport to Western La Noscea (Aleport)"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -464.3, "Y": -0.7, "Z": 668.0 },
+          "TerritoryId": 138,
+          "Comment": "Ride to Novv's Nursery (Sahagin hub)",
+          "Mount": true
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001797,
+          "Position": { "X": -464.6, "Y": -0.6, "Z": 668.5 },
+          "TerritoryId": 138,
+          "Comment": "Accept daily from Clutchfather Novv"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -450.0, "Y": -0.5, "Z": 655.0 },
+          "TerritoryId": 138,
+          "Comment": "Navigate to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1001798,
+          "Position": { "X": -450.0, "Y": -0.5, "Z": 655.0 },
+          "TerritoryId": 138,
+          "Comment": "Deliver / interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001797,
+          "Position": { "X": -464.6, "Y": -0.6, "Z": 668.5 },
+          "TerritoryId": 138,
+          "Comment": "Turn in to Clutchfather Novv"
+        }
+      ]
+    },
+    {
+      "QuestId": 584,
+      "Name": "Daily Quest 2 – Sahagin",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001797,
+          "Position": { "X": -464.6, "Y": -0.6, "Z": 668.5 },
+          "TerritoryId": 138,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -476.0, "Y": -0.5, "Z": 680.0 },
+          "TerritoryId": 138,
+          "Comment": "Move to NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1001799,
+          "Position": { "X": -476.0, "Y": -0.5, "Z": 680.0 },
+          "TerritoryId": 138,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001797,
+          "Position": { "X": -464.6, "Y": -0.6, "Z": 668.5 },
+          "TerritoryId": 138,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 585,
+      "Name": "Daily Quest 3 – Sahagin",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001797,
+          "Position": { "X": -464.6, "Y": -0.6, "Z": 668.5 },
+          "TerritoryId": 138,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -458.0, "Y": -0.5, "Z": 678.0 },
+          "TerritoryId": 138,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1001800,
+          "Position": { "X": -458.0, "Y": -0.5, "Z": 678.0 },
+          "TerritoryId": 138,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001797,
+          "Position": { "X": -464.6, "Y": -0.6, "Z": 668.5 },
+          "TerritoryId": 138,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "TribeKey": "Gnath",
+  "DisplayName": "Gnath",
+  "Expansion": "Heavensward",
+  "StartAetheryteId": 72,
+  "HubTerritoryId": 397,
+  "DailyQuests": [
+    {
+      "QuestId": 1706,
+      "Name": "Daily Quest 1 – Gnath",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 72,
+          "TerritoryId": 397,
+          "Comment": "Teleport to Dravanian Forelands (Tailfeather)"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 25.0, "Y": 3.0, "Z": 465.0 },
+          "TerritoryId": 397,
+          "Comment": "Ride to Lull (Gnath hub)",
+          "Mount": true
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1005774,
+          "Position": { "X": 25.5, "Y": 3.2, "Z": 465.8 },
+          "TerritoryId": 397,
+          "Comment": "Accept daily from Notetogg"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 38.0, "Y": 3.0, "Z": 455.0 },
+          "TerritoryId": 397,
+          "Comment": "Navigate to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1005775,
+          "Position": { "X": 38.0, "Y": 3.0, "Z": 455.0 },
+          "TerritoryId": 397,
+          "Comment": "Interact / deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1005774,
+          "Position": { "X": 25.5, "Y": 3.2, "Z": 465.8 },
+          "TerritoryId": 397,
+          "Comment": "Turn in to Notetogg"
+        }
+      ]
+    },
+    {
+      "QuestId": 1707,
+      "Name": "Daily Quest 2 – Gnath",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1005774,
+          "Position": { "X": 25.5, "Y": 3.2, "Z": 465.8 },
+          "TerritoryId": 397,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 15.0, "Y": 3.0, "Z": 478.0 },
+          "TerritoryId": 397,
+          "Comment": "Move to NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1005776,
+          "Position": { "X": 15.0, "Y": 3.0, "Z": 478.0 },
+          "TerritoryId": 397,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1005774,
+          "Position": { "X": 25.5, "Y": 3.2, "Z": 465.8 },
+          "TerritoryId": 397,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 1708,
+      "Name": "Daily Quest 3 – Gnath",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1005774,
+          "Position": { "X": 25.5, "Y": 3.2, "Z": 465.8 },
+          "TerritoryId": 397,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 30.0, "Y": 3.0, "Z": 480.0 },
+          "TerritoryId": 397,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1005777,
+          "Position": { "X": 30.0, "Y": 3.0, "Z": 480.0 },
+          "TerritoryId": 397,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1005774,
+          "Position": { "X": 25.5, "Y": 3.2, "Z": 465.8 },
+          "TerritoryId": 397,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

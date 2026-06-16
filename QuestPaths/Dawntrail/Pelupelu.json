@@ -1,0 +1,114 @@
+{
+  "TribeKey": "Pelupelu",
+  "DisplayName": "Pelupelu",
+  "Expansion": "Dawntrail",
+  "StartAetheryteId": 236,
+  "HubTerritoryId": 1182,
+  "DailyQuests": [
+    {
+      "QuestId": 4904,
+      "Name": "Daily Quest 1 – Pelupelu",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 236,
+          "TerritoryId": 1182,
+          "Comment": "Teleport to Tuliyollal"
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1058247,
+          "Position": { "X": 69.4, "Y": 5.0, "Z": -50.1 },
+          "TerritoryId": 1182,
+          "Comment": "Accept daily from Pelupelu quest giver"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 72.0, "Y": 5.0, "Z": -43.0 },
+          "TerritoryId": 1182,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1058248,
+          "Position": { "X": 72.0, "Y": 5.0, "Z": -43.0 },
+          "TerritoryId": 1182,
+          "Comment": "Interact / deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1058247,
+          "Position": { "X": 69.4, "Y": 5.0, "Z": -50.1 },
+          "TerritoryId": 1182,
+          "Comment": "Turn in to quest giver"
+        }
+      ]
+    },
+    {
+      "QuestId": 4905,
+      "Name": "Daily Quest 2 – Pelupelu",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1058247,
+          "Position": { "X": 69.4, "Y": 5.0, "Z": -50.1 },
+          "TerritoryId": 1182,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 85.3, "Y": 5.0, "Z": -60.2 },
+          "TerritoryId": 1182,
+          "Comment": "Move to delivery NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1058249,
+          "Position": { "X": 85.3, "Y": 5.0, "Z": -60.2 },
+          "TerritoryId": 1182,
+          "Comment": "Deliver item"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1058247,
+          "Position": { "X": 69.4, "Y": 5.0, "Z": -50.1 },
+          "TerritoryId": 1182,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 4906,
+      "Name": "Daily Quest 3 – Pelupelu",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1058247,
+          "Position": { "X": 69.4, "Y": 5.0, "Z": -50.1 },
+          "TerritoryId": 1182,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 60.1, "Y": 5.0, "Z": -38.5 },
+          "TerritoryId": 1182,
+          "Comment": "Move to gather / NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1058250,
+          "Position": { "X": 60.1, "Y": 5.0, "Z": -38.5 },
+          "TerritoryId": 1182,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1058247,
+          "Position": { "X": 69.4, "Y": 5.0, "Z": -50.1 },
+          "TerritoryId": 1182,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "TribeKey": "Pixies",
+  "DisplayName": "Pixies",
+  "Expansion": "Shadowbringers",
+  "StartAetheryteId": 134,
+  "HubTerritoryId": 816,
+  "DailyQuests": [
+    {
+      "QuestId": 3528,
+      "Name": "Daily Quest 1 – Pixies",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 134,
+          "TerritoryId": 816,
+          "Comment": "Teleport to Il Mheg (Lydha Lran)"
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1036145,
+          "Position": { "X": -64.5, "Y": 13.0, "Z": -278.0 },
+          "TerritoryId": 816,
+          "Comment": "Accept daily from Friendsheep"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -50.0, "Y": 13.5, "Z": -265.0 },
+          "TerritoryId": 816,
+          "Comment": "Navigate to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1036146,
+          "Position": { "X": -50.0, "Y": 13.5, "Z": -265.0 },
+          "TerritoryId": 816,
+          "Comment": "Interact / deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1036145,
+          "Position": { "X": -64.5, "Y": 13.0, "Z": -278.0 },
+          "TerritoryId": 816,
+          "Comment": "Turn in to Friendsheep"
+        }
+      ]
+    },
+    {
+      "QuestId": 3529,
+      "Name": "Daily Quest 2 – Pixies",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1036145,
+          "Position": { "X": -64.5, "Y": 13.0, "Z": -278.0 },
+          "TerritoryId": 816,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -78.0, "Y": 14.0, "Z": -290.0 },
+          "TerritoryId": 816,
+          "Comment": "Move to NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1036147,
+          "Position": { "X": -78.0, "Y": 14.0, "Z": -290.0 },
+          "TerritoryId": 816,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1036145,
+          "Position": { "X": -64.5, "Y": 13.0, "Z": -278.0 },
+          "TerritoryId": 816,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 3530,
+      "Name": "Daily Quest 3 – Pixies",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1036145,
+          "Position": { "X": -64.5, "Y": 13.0, "Z": -278.0 },
+          "TerritoryId": 816,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -42.0, "Y": 13.0, "Z": -270.0 },
+          "TerritoryId": 816,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1036148,
+          "Position": { "X": -42.0, "Y": 13.0, "Z": -270.0 },
+          "TerritoryId": 816,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1036145,
+          "Position": { "X": -64.5, "Y": 13.0, "Z": -278.0 },
+          "TerritoryId": 816,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

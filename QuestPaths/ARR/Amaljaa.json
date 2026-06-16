@@ -1,0 +1,121 @@
+{
+  "TribeKey": "Amaljaa",
+  "DisplayName": "Amalj'aa",
+  "Expansion": "ARR",
+  "StartAetheryteId": 21,
+  "HubTerritoryId": 146,
+  "DailyQuests": [
+    {
+      "QuestId": 538,
+      "Name": "Daily Quest 1 – Amalj'aa",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 21,
+          "TerritoryId": 146,
+          "Comment": "Teleport to Southern Thanalan (Little Ala Mhigo)"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -94.0, "Y": 23.0, "Z": 463.0 },
+          "TerritoryId": 146,
+          "Comment": "Ride to Ring of Ash (Amalj'aa hub)",
+          "Mount": true
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001704,
+          "Position": { "X": -94.4, "Y": 23.2, "Z": 463.6 },
+          "TerritoryId": 146,
+          "Comment": "Accept daily from Loonh Gah"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -80.0, "Y": 24.0, "Z": 450.0 },
+          "TerritoryId": 146,
+          "Comment": "Navigate to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1001705,
+          "Position": { "X": -80.0, "Y": 24.0, "Z": 450.0 },
+          "TerritoryId": 146,
+          "Comment": "Interact / deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001704,
+          "Position": { "X": -94.4, "Y": 23.2, "Z": 463.6 },
+          "TerritoryId": 146,
+          "Comment": "Turn in to Loonh Gah"
+        }
+      ]
+    },
+    {
+      "QuestId": 539,
+      "Name": "Daily Quest 2 – Amalj'aa",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001704,
+          "Position": { "X": -94.4, "Y": 23.2, "Z": 463.6 },
+          "TerritoryId": 146,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -106.0, "Y": 23.0, "Z": 472.0 },
+          "TerritoryId": 146,
+          "Comment": "Move to NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1001706,
+          "Position": { "X": -106.0, "Y": 23.0, "Z": 472.0 },
+          "TerritoryId": 146,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001704,
+          "Position": { "X": -94.4, "Y": 23.2, "Z": 463.6 },
+          "TerritoryId": 146,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 540,
+      "Name": "Daily Quest 3 – Amalj'aa",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001704,
+          "Position": { "X": -94.4, "Y": 23.2, "Z": 463.6 },
+          "TerritoryId": 146,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -88.0, "Y": 23.0, "Z": 478.0 },
+          "TerritoryId": 146,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1001707,
+          "Position": { "X": -88.0, "Y": 23.0, "Z": 478.0 },
+          "TerritoryId": 146,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001704,
+          "Position": { "X": -94.4, "Y": 23.2, "Z": 463.6 },
+          "TerritoryId": 146,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

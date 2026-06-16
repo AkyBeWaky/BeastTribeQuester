@@ -1,0 +1,121 @@
+{
+  "TribeKey": "Ananta",
+  "DisplayName": "Ananta",
+  "Expansion": "Stormblood",
+  "StartAetheryteId": 111,
+  "HubTerritoryId": 612,
+  "DailyQuests": [
+    {
+      "QuestId": 3086,
+      "Name": "Daily Quest 1 – Ananta",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 111,
+          "TerritoryId": 612,
+          "Comment": "Teleport to The Fringes (Castrum Oriens)"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 17.0, "Y": 4.0, "Z": 597.0 },
+          "TerritoryId": 612,
+          "Comment": "Walk to Vira quest hub",
+          "Mount": true
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1024690,
+          "Position": { "X": 17.4, "Y": 4.0, "Z": 597.5 },
+          "TerritoryId": 612,
+          "Comment": "Accept daily from Alpa"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 30.0, "Y": 3.5, "Z": 610.0 },
+          "TerritoryId": 612,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1024691,
+          "Position": { "X": 30.0, "Y": 3.5, "Z": 610.0 },
+          "TerritoryId": 612,
+          "Comment": "Deliver / interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1024690,
+          "Position": { "X": 17.4, "Y": 4.0, "Z": 597.5 },
+          "TerritoryId": 612,
+          "Comment": "Turn in to Alpa"
+        }
+      ]
+    },
+    {
+      "QuestId": 3087,
+      "Name": "Daily Quest 2 – Ananta",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1024690,
+          "Position": { "X": 17.4, "Y": 4.0, "Z": 597.5 },
+          "TerritoryId": 612,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 5.0, "Y": 4.0, "Z": 580.0 },
+          "TerritoryId": 612,
+          "Comment": "Move to NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1024692,
+          "Position": { "X": 5.0, "Y": 4.0, "Z": 580.0 },
+          "TerritoryId": 612,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1024690,
+          "Position": { "X": 17.4, "Y": 4.0, "Z": 597.5 },
+          "TerritoryId": 612,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 3088,
+      "Name": "Daily Quest 3 – Ananta",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1024690,
+          "Position": { "X": 17.4, "Y": 4.0, "Z": 597.5 },
+          "TerritoryId": 612,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 25.0, "Y": 3.8, "Z": 588.0 },
+          "TerritoryId": 612,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1024693,
+          "Position": { "X": 25.0, "Y": 3.8, "Z": 588.0 },
+          "TerritoryId": 612,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1024690,
+          "Position": { "X": 17.4, "Y": 4.0, "Z": 597.5 },
+          "TerritoryId": 612,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

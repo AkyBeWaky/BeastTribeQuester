@@ -1,0 +1,121 @@
+{
+  "TribeKey": "Namazu",
+  "DisplayName": "Namazu",
+  "Expansion": "Stormblood",
+  "StartAetheryteId": 120,
+  "HubTerritoryId": 614,
+  "DailyQuests": [
+    {
+      "QuestId": 3183,
+      "Name": "Daily Quest 1 – Namazu",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 120,
+          "TerritoryId": 614,
+          "Comment": "Teleport to Yanxia (Namai)"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 50.0, "Y": -5.5, "Z": 570.0 },
+          "TerritoryId": 614,
+          "Comment": "Walk to Dhoro Iloh (Namazu hub)",
+          "Mount": true
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1026940,
+          "Position": { "X": 50.4, "Y": -5.5, "Z": 570.6 },
+          "TerritoryId": 614,
+          "Comment": "Accept daily from Gyoshin"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 62.0, "Y": -5.5, "Z": 560.0 },
+          "TerritoryId": 614,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1026941,
+          "Position": { "X": 62.0, "Y": -5.5, "Z": 560.0 },
+          "TerritoryId": 614,
+          "Comment": "Deliver / interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1026940,
+          "Position": { "X": 50.4, "Y": -5.5, "Z": 570.6 },
+          "TerritoryId": 614,
+          "Comment": "Turn in to Gyoshin"
+        }
+      ]
+    },
+    {
+      "QuestId": 3184,
+      "Name": "Daily Quest 2 – Namazu",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1026940,
+          "Position": { "X": 50.4, "Y": -5.5, "Z": 570.6 },
+          "TerritoryId": 614,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 40.0, "Y": -5.5, "Z": 580.0 },
+          "TerritoryId": 614,
+          "Comment": "Move to NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1026942,
+          "Position": { "X": 40.0, "Y": -5.5, "Z": 580.0 },
+          "TerritoryId": 614,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1026940,
+          "Position": { "X": 50.4, "Y": -5.5, "Z": 570.6 },
+          "TerritoryId": 614,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 3185,
+      "Name": "Daily Quest 3 – Namazu",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1026940,
+          "Position": { "X": 50.4, "Y": -5.5, "Z": 570.6 },
+          "TerritoryId": 614,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 55.0, "Y": -5.5, "Z": 558.0 },
+          "TerritoryId": 614,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1026943,
+          "Position": { "X": 55.0, "Y": -5.5, "Z": 558.0 },
+          "TerritoryId": 614,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1026940,
+          "Position": { "X": 50.4, "Y": -5.5, "Z": 570.6 },
+          "TerritoryId": 614,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

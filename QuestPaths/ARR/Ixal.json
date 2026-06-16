@@ -1,0 +1,102 @@
+{
+  "TribeKey": "Ixal",
+  "DisplayName": "Ixal",
+  "Expansion": "ARR",
+  "StartAetheryteId": 4,
+  "HubTerritoryId": 154,
+  "DailyQuests": [
+    {
+      "QuestId": 597,
+      "Name": "Daily Quest 1 – Ixal (Crafting)",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 4,
+          "TerritoryId": 154,
+          "Comment": "Teleport to North Shroud (Fallgourd Float)"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 404.0, "Y": 3.0, "Z": -381.0 },
+          "TerritoryId": 154,
+          "Comment": "Ride to Ehcatl (Ixal hub)",
+          "Mount": true
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001830,
+          "Position": { "X": 404.4, "Y": 3.1, "Z": -381.5 },
+          "TerritoryId": 154,
+          "Comment": "Accept daily from Sezul Totoloc (NOTE: Ixal quests require crafting – ensure relevant crafting job is equipped and mats are in inventory)"
+        },
+        {
+          "InteractionType": "SwitchJob",
+          "ClassJobId": 8,
+          "Comment": "Switch to Carpenter (or whichever job the quest requires – extend as needed)"
+        },
+        {
+          "InteractionType": "WaitForCondition",
+          "DelayAfterMs": 2000,
+          "Comment": "Wait after craft to confirm turn-in eligibility"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001830,
+          "Position": { "X": 404.4, "Y": 3.1, "Z": -381.5 },
+          "TerritoryId": 154,
+          "Comment": "Turn in crafted item to Sezul Totoloc"
+        }
+      ]
+    },
+    {
+      "QuestId": 598,
+      "Name": "Daily Quest 2 – Ixal (Crafting)",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001830,
+          "Position": { "X": 404.4, "Y": 3.1, "Z": -381.5 },
+          "TerritoryId": 154,
+          "Comment": "Accept second crafting daily"
+        },
+        {
+          "InteractionType": "WaitForCondition",
+          "DelayAfterMs": 3000,
+          "Comment": "Wait after craft"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001830,
+          "Position": { "X": 404.4, "Y": 3.1, "Z": -381.5 },
+          "TerritoryId": 154,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 599,
+      "Name": "Daily Quest 3 – Ixal (Crafting)",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001830,
+          "Position": { "X": 404.4, "Y": 3.1, "Z": -381.5 },
+          "TerritoryId": 154,
+          "Comment": "Accept third crafting daily"
+        },
+        {
+          "InteractionType": "WaitForCondition",
+          "DelayAfterMs": 3000,
+          "Comment": "Wait after craft"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001830,
+          "Position": { "X": 404.4, "Y": 3.1, "Z": -381.5 },
+          "TerritoryId": 154,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

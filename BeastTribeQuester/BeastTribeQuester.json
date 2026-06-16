@@ -1,0 +1,15 @@
+{
+  "Author": "Community",
+  "Name": "BeastTribeQuester",
+  "InternalName": "BeastTribeQuester",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Automates Beast Tribe / Allied Society daily quests from Dawntrail down to ARR. Requires vnavmesh, TextAdvance, and Lifestream.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/YourName/BeastTribeQuester",
+  "Tags": ["beast tribe", "allied society", "daily", "automation", "qol"],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "LoadPriority": 0,
+  "CanUnloadAsync": true
+}

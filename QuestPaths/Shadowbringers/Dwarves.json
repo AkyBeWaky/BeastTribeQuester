@@ -1,0 +1,114 @@
+{
+  "TribeKey": "Dwarves",
+  "DisplayName": "Dwarves",
+  "Expansion": "Shadowbringers",
+  "StartAetheryteId": 132,
+  "HubTerritoryId": 814,
+  "DailyQuests": [
+    {
+      "QuestId": 3516,
+      "Name": "Daily Quest 1 – Dwarves",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 132,
+          "TerritoryId": 814,
+          "Comment": "Teleport to Kholusia (Stilltide)"
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1036024,
+          "Position": { "X": 495.1, "Y": 147.0, "Z": 410.2 },
+          "TerritoryId": 814,
+          "Comment": "Accept daily from Ronitt"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 480.0, "Y": 148.0, "Z": 400.0 },
+          "TerritoryId": 814,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1036025,
+          "Position": { "X": 480.0, "Y": 148.0, "Z": 400.0 },
+          "TerritoryId": 814,
+          "Comment": "Interact / deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1036024,
+          "Position": { "X": 495.1, "Y": 147.0, "Z": 410.2 },
+          "TerritoryId": 814,
+          "Comment": "Turn in to Ronitt"
+        }
+      ]
+    },
+    {
+      "QuestId": 3517,
+      "Name": "Daily Quest 2 – Dwarves",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1036024,
+          "Position": { "X": 495.1, "Y": 147.0, "Z": 410.2 },
+          "TerritoryId": 814,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 510.0, "Y": 148.5, "Z": 425.0 },
+          "TerritoryId": 814,
+          "Comment": "Move to delivery NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1036026,
+          "Position": { "X": 510.0, "Y": 148.5, "Z": 425.0 },
+          "TerritoryId": 814,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1036024,
+          "Position": { "X": 495.1, "Y": 147.0, "Z": 410.2 },
+          "TerritoryId": 814,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 3518,
+      "Name": "Daily Quest 3 – Dwarves",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1036024,
+          "Position": { "X": 495.1, "Y": 147.0, "Z": 410.2 },
+          "TerritoryId": 814,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 468.0, "Y": 146.0, "Z": 418.0 },
+          "TerritoryId": 814,
+          "Comment": "Move to third objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1036027,
+          "Position": { "X": 468.0, "Y": 146.0, "Z": 418.0 },
+          "TerritoryId": 814,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1036024,
+          "Position": { "X": 495.1, "Y": 147.0, "Z": 410.2 },
+          "TerritoryId": 814,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

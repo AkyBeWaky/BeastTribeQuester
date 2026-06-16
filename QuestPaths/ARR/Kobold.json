@@ -1,0 +1,121 @@
+{
+  "TribeKey": "Kobold",
+  "DisplayName": "Kobold",
+  "Expansion": "ARR",
+  "StartAetheryteId": 17,
+  "HubTerritoryId": 155,
+  "DailyQuests": [
+    {
+      "QuestId": 568,
+      "Name": "Daily Quest 1 – Kobold",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 17,
+          "TerritoryId": 155,
+          "Comment": "Teleport to Outer La Noscea (Camp Overlook)"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -3.5, "Y": 81.0, "Z": 409.0 },
+          "TerritoryId": 155,
+          "Comment": "Ride to 789th Order Dig (Kobold hub)",
+          "Mount": true
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001768,
+          "Position": { "X": -3.2, "Y": 81.1, "Z": 409.4 },
+          "TerritoryId": 155,
+          "Comment": "Accept daily from 789th Order Pickman Ata"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 10.0, "Y": 82.0, "Z": 398.0 },
+          "TerritoryId": 155,
+          "Comment": "Navigate to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1001769,
+          "Position": { "X": 10.0, "Y": 82.0, "Z": 398.0 },
+          "TerritoryId": 155,
+          "Comment": "Interact / deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001768,
+          "Position": { "X": -3.2, "Y": 81.1, "Z": 409.4 },
+          "TerritoryId": 155,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 569,
+      "Name": "Daily Quest 2 – Kobold",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001768,
+          "Position": { "X": -3.2, "Y": 81.1, "Z": 409.4 },
+          "TerritoryId": 155,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": -15.0, "Y": 81.0, "Z": 420.0 },
+          "TerritoryId": 155,
+          "Comment": "Move to NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1001770,
+          "Position": { "X": -15.0, "Y": 81.0, "Z": 420.0 },
+          "TerritoryId": 155,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001768,
+          "Position": { "X": -3.2, "Y": 81.1, "Z": 409.4 },
+          "TerritoryId": 155,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 570,
+      "Name": "Daily Quest 3 – Kobold",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001768,
+          "Position": { "X": -3.2, "Y": 81.1, "Z": 409.4 },
+          "TerritoryId": 155,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 5.0, "Y": 81.5, "Z": 420.0 },
+          "TerritoryId": 155,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1001771,
+          "Position": { "X": 5.0, "Y": 81.5, "Z": 420.0 },
+          "TerritoryId": 155,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001768,
+          "Position": { "X": -3.2, "Y": 81.1, "Z": 409.4 },
+          "TerritoryId": 155,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "TribeKey": "Sylph",
+  "DisplayName": "Sylph",
+  "Expansion": "ARR",
+  "StartAetheryteId": 8,
+  "HubTerritoryId": 152,
+  "DailyQuests": [
+    {
+      "QuestId": 553,
+      "Name": "Daily Quest 1 – Sylph",
+      "Steps": [
+        {
+          "InteractionType": "Teleport",
+          "AetheryteId": 8,
+          "TerritoryId": 152,
+          "Comment": "Teleport to East Shroud (Hawthorne Hut)"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 487.5, "Y": -2.5, "Z": 104.2 },
+          "TerritoryId": 152,
+          "Comment": "Move to Little Solace (Sylph hub)",
+          "Mount": true
+        },
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001736,
+          "Position": { "X": 487.8, "Y": -2.4, "Z": 104.5 },
+          "TerritoryId": 152,
+          "Comment": "Accept daily from Featherlight"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 500.0, "Y": -2.0, "Z": 92.0 },
+          "TerritoryId": 152,
+          "Comment": "Navigate to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1001737,
+          "Position": { "X": 500.0, "Y": -2.0, "Z": 92.0 },
+          "TerritoryId": 152,
+          "Comment": "Deliver / interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001736,
+          "Position": { "X": 487.8, "Y": -2.4, "Z": 104.5 },
+          "TerritoryId": 152,
+          "Comment": "Turn in to Featherlight"
+        }
+      ]
+    },
+    {
+      "QuestId": 554,
+      "Name": "Daily Quest 2 – Sylph",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001736,
+          "Position": { "X": 487.8, "Y": -2.4, "Z": 104.5 },
+          "TerritoryId": 152,
+          "Comment": "Accept second daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 478.0, "Y": -2.5, "Z": 115.0 },
+          "TerritoryId": 152,
+          "Comment": "Move to NPC"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1001738,
+          "Position": { "X": 478.0, "Y": -2.5, "Z": 115.0 },
+          "TerritoryId": 152,
+          "Comment": "Deliver"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001736,
+          "Position": { "X": 487.8, "Y": -2.4, "Z": 104.5 },
+          "TerritoryId": 152,
+          "Comment": "Turn in"
+        }
+      ]
+    },
+    {
+      "QuestId": 555,
+      "Name": "Daily Quest 3 – Sylph",
+      "Steps": [
+        {
+          "InteractionType": "AcceptQuest",
+          "DataId": 1001736,
+          "Position": { "X": 487.8, "Y": -2.4, "Z": 104.5 },
+          "TerritoryId": 152,
+          "Comment": "Accept third daily"
+        },
+        {
+          "InteractionType": "MoveTo",
+          "Position": { "X": 494.0, "Y": -2.0, "Z": 118.0 },
+          "TerritoryId": 152,
+          "Comment": "Move to objective"
+        },
+        {
+          "InteractionType": "TalkTo",
+          "DataId": 1001739,
+          "Position": { "X": 494.0, "Y": -2.0, "Z": 118.0 },
+          "TerritoryId": 152,
+          "Comment": "Interact"
+        },
+        {
+          "InteractionType": "TurnInQuest",
+          "DataId": 1001736,
+          "Position": { "X": 487.8, "Y": -2.4, "Z": 104.5 },
+          "TerritoryId": 152,
+          "Comment": "Turn in"
+        }
+      ]
+    }
+  ]
+}
